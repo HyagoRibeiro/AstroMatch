@@ -1,32 +1,25 @@
-<h1 align="center"> GoSpace </h1>
+<h1 align="center"> AstroMatch </h1>
 
 <p align="center"><img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=flat&logo=REACT"/>
 <img src="https://img.shields.io/static/v1?label=styled-components&message=lib&color=pink&style=flat&logo=STYLED-COMPONENTS"/>
 <img src="https://img.shields.io/static/v1?label=axios&message=lib&color=black&style=flat&logo=AXIOS"/>
-<img src="https://img.shields.io/static/v1?label=router&message=lib&color=blue&style=flat&logo=ROUTER"/></p>
 
 
 
 ## Descrição do Projeto
-<p align="justify"> A aplicação GoSpace é um dos trabalhos que desenvolvi no curso da escola Labenu. É um site de viagens interplanetárias, no qual o usuário pode olhar viagens vigentes e se candidatar. Além disso, também temos a sessão de administrador, que pode realizar ações exclusivas como exclusão de viagens, criação e aprovação de candidatos. A aplicação possuí suporte responsivo para mobile e foi pensada para ser simples e objetiva.</p>
-<p align="justify">O projeto consiste em comunicação com APIs externas que foram elaboradas pelos professores da escola.</p>
+<p align="justify"> O projeto AstroMatch foi desenvolvido para simular a funcionalidade do Tinder. As perfis existentes na aplicação são estáticos e dar like gera uma probabilidade de 50% de dar match com o perfil. </p>
+<p align="justify">O projeto consiste em comunicação com APIs que foram criadas por outra pessoa. Em certo momento todos os perfis do aplicativo são vistos, e fica em uma tela de loading eterno. Para voltar a funcionar, é necessário clicar no botão de limpar matches.</p>
 
 ### O que a aplicação é capaz de fazer :checkered_flag:
 - Como usuário: :ok_woman:
-    - Olhar todas as viagens vigentes 
-    - Candidatar-se para viagens, preenchendo formulário
-    
-- Como administrador: :cop:
-    - Criar novas viagens
-    - Excluir viagens
-    - Aprovar ou recusar candidaturas
+    - Dar like no perfil
+    - Dar dislike
+    - Visualizar a quantidade de matches
+    - Limpar matches
     
 ## Deploy da Aplicação com Surge: :dash:
 
-> http://gospace.surge.sh/
-<p>Acesso a área adm</p>
-<p>Usuário: hyago@gmail.com</p>
-<p>senha: 123456</p>
+> http://astromatch-hyago.surge.sh/
 
 ## Pré-requisitos :warning:
 
@@ -42,7 +35,6 @@
 ## Libs utilizadas :books:
 
 - React.js
-- Router
 - Styled-Components
 - Axios
 
