@@ -5,6 +5,10 @@ export const Body = styled.div `
   height: 100vh;
   display: flex;
   align-items: center;
+  @media(max-width:480px) {
+    background-color: #fff;
+    height: 100vh;
+  }
 `;
 
 export const ContainerMasterApp = styled.div `
@@ -17,6 +21,10 @@ export const ContainerMasterApp = styled.div `
   width: 398px;
   height: 589px;
   border-radius: 10px;
+  @media(max-width:480px) {
+    height: 100vh;
+    width: 100vw;
+  }
 `;
 
 export const ContainerHeader = styled.div `
@@ -26,6 +34,11 @@ export const ContainerHeader = styled.div `
   border-bottom: 1px solid #ccc;
   width: 398px;
   height: 60px;
+  @media(max-width:480px) {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+  }
 `;
 
 export const Logo = styled.img `

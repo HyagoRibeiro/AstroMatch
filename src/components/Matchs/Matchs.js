@@ -38,16 +38,17 @@ function Matchs() {
   },[onClickClearMatches])
 
   return (
-    <ContainerMatches className="scrollbar-primary">
-        <div>
-          <TitleMatch>Seus Matchs</TitleMatch>
-          {matchs.map((person) => {
-            return <ProfileMatch photo={person.photo} name={person.name} />
-          })}
-        </div>
-        <ClearButton onClick={onClickClearMatches}>Limpar Matches</ClearButton>
-    </ContainerMatches>
-
+    <>
+      <TitleMatch>Seus Matchs</TitleMatch>
+        <ContainerMatches className="scrollbar-primary">
+            <div>
+              {matchs.map((person) => {
+                return <ProfileMatch photo={person.photo} name={person.name} />
+              })}
+            </div>
+        </ContainerMatches>
+      <ClearButton onClick={onClickClearMatches}>Limpar Matches</ClearButton>
+    </>
   );
 }
 
