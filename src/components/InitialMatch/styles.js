@@ -11,6 +11,9 @@ export const ContainerProfileSingle = styled.div `
   overflow: hidden;
   transition: 0.5s;
   box-shadow: rgba(117, 117, 117, 0.77) 0px 2px 10px 0px;
+  @media(max-width:480px) {
+    width: 92vw;
+  }
 `;
 
 export const ContainerImg = styled.div `

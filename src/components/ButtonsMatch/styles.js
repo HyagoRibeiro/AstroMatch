@@ -5,6 +5,11 @@ export const ContainerButtons = styled.div `
     display: flex;
     justify-content: space-evenly;
     padding: 15px 0;
+    @media(max-width: 480px) {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
 `;
 
 export const ButtonDislike = styled.button `

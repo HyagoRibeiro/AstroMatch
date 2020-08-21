@@ -7,6 +7,9 @@ export const ContainerMatches = styled.div `
   flex-direction: column;
   justify-content:space-between;
   overflow:auto;
+  @media(max-width:480px) {
+    width: 100vw;
+  }
   
 `;
 
@@ -21,6 +24,7 @@ export const ClearButton = styled.button `
   font-weight: bold;
   background-color: #fff;
   transition: 200ms;
+  margin-top: 10px;
   cursor:pointer;
     :hover {
       background-color: #51A89D;
@@ -30,6 +34,9 @@ export const ClearButton = styled.button `
     :focus {
       outline: none;
     }
+    @media(max-width:480px) {
+      margin-top: 15px;
+  }
 `;
 
 export const TitleMatch = styled.h2 `
